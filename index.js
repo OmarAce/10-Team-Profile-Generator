@@ -208,7 +208,7 @@ const writeFile = data => {
             return;
         // Successful Creation
         } else {
-            console.log("Your team profile has been successfully created! Please check out the index.html")
+            console.log("Your team profile has been successfully created! Please check out the index.html in the teams folder.")
         }
     })
 }; 
