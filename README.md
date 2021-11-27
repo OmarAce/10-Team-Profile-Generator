@@ -5,8 +5,8 @@
   ## Description:
   This is a simple terminal/console based team profile generator. Using the npm inquirer package, the user is prompted for information to generate their custom team profile html file.
 
-  ![Team Profile Generator Demo](Assets/team-profile.gif)
-  ![Demo Generation](Assets/example-generation.png)
+  ![Team Profile Generator Demo](Assets/gen-demo.gif)
+  ![Demo Generation](Assets/gen-example.png)
 
   ## Table of Contents 
   - [Description](#description)
