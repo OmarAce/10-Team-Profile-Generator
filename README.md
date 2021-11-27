@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description:
-  This is a simple terminal/console based team profile generator. Using the npm inquirer package, the user is prompted for information to generate their custom team profile html file.
+  This is a simple terminal/console based team profile generator. Using the npm inquirer package, the user is prompted for information to generate their custom team profile html file. The generator was developed witht the Test Driven Development Model and can also be tested using jest.
 
   ![Team Profile Generator Demo](Assets/gen-demo.gif)
   ![Demo Generation](Assets/gen-example.png)
@@ -35,18 +35,26 @@
   ```
 
   ## Usage:
-  -Open your terminal\
-  -type:
+  - Open your terminal
+  - type:
   ```
   node index.js
   ```
   -Follow Prompts to build your team.
 
   ## Testing:
-  Run npm test to run Jest for tests on constructors.
+  Run npm test to run jest for tests on constructors.
+  - First, install jest.
+  ```
+  npm install --save-dev jest
+  ```
+  - Next run:
   ```
   npm test
   ```
+  - Test will run jest in console.
+  
+  ![Jest Test Example](Assets/jest-test.png)
 
   ## Questions:
   Have any questions?\
